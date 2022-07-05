@@ -1,0 +1,108 @@
+.container {
+  height: calc(100vh - 91px);
+  background: url("../assets/image/backgroundHead.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.banner {
+  max-width: 1900px;
+  padding: 220px 170px 100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.headerBanner {
+  position: absolute;
+  left: 50%;
+  top: 10%;
+  font-weight: 900;
+  font-size: 55px;
+  line-height: 86px;
+  text-align: center;
+  color: #ffffff;
+  transform: translateX(-50%);
+}
+
+.bannerLeft,
+.bannerRight {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.bannerCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.bannerCenter img:nth-child(2) {
+  width: 250px;
+}
+
+.bannerCenter img:first-child {
+  position: absolute;
+  width: 240px;
+  top: 3%;
+  left: -30%;
+}
+
+.karjoRed,
+.karjoGreen {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.karjoRed {
+  top: -33%;
+  width: 470px;
+}
+
+.karjoGreen {
+  top: -32%;
+  width: 390px;
+}
+
+.bannerCenter img:last-child {
+  position: absolute;
+  top: 12%;
+  right: -39%;
+  width: 240px;
+  z-index: 5;
+}
+
+.imageUser {
+  width: 420px;
+  border-radius: 15px;
+}
+
+.karjoHead {
+  width: 200px;
+}
+
+.banner button {
+  border-radius: 10px;
+  font-size: 16px;
+  line-height: 31px;
+  width: 225px;
+  height: 51px;
+  border: none;
+  margin-top: 18px;
+}
+
+.bannerLeft button {
+  background: #ec4b72;
+  color: #ffffff;
+}
+
+.bannerRight button {
+  color: #ec4b72;
+}
