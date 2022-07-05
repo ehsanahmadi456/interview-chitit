@@ -5,6 +5,7 @@ import NavBar from './NavBar';
 import Banner from './Banner';
 import Card from './Cards';
 import OptionKarjo from './OptionKarjo';
+import Footer from './Footer';
 
 // styles
 import styles from "./Home.module.css";
@@ -16,6 +17,7 @@ const Home = () => {
             <Banner />
             <Card />
             <OptionKarjo />
+            <Footer />
         </div>
     );
 };
