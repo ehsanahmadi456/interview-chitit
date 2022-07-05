@@ -3,7 +3,7 @@ import React from 'react';
 // Components
 import NavBar from './NavBar';
 import Banner from './Banner';
-import Card from './Cards';
+import Cards from './Cards';
 import OptionKarjo from './OptionKarjo';
 import Footer from './Footer';
 import MainAdver from './MainAdver';
@@ -16,7 +16,7 @@ const Home = () => {
         <div className={styles.container}>
             <NavBar />
             <Banner />
-            <Card />
+            <Cards />
             <MainAdver />
             <OptionKarjo />
             <Footer />
