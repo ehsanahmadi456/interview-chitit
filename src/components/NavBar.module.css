@@ -45,6 +45,39 @@ button {
   list-style: none;
 }
 
+.navbarRight .hoverEffectItem {
+  position: relative;
+  overflow: hidden;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.navbarRight .hoverEffectItem button,
+.navbarRight .hoverEffectItem img {
+  z-index: 5;
+  transition: 0.2s ease-in-out;
+}
+
+.navbarRight .hoverEffectItem::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  border-radius: 10px;
+  height: 0;
+  background: #11999e;
+  transition: 0.3s;
+}
+
+.navbarRight .hoverEffectItem:hover:after {
+  height: 100%;
+}
+
+.navbarRight .hoverEffectItem:hover img {
+  transform: rotate(90deg);
+}
+
 .navbarRight ul li:nth-child(2) p {
   padding-right: 10px;
 }
