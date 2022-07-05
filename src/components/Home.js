@@ -4,6 +4,7 @@ import React from 'react';
 import NavBar from './NavBar';
 import Banner from './Banner';
 import Card from './Cards';
+import OptionKarjo from './OptionKarjo';
 
 // styles
 import styles from "./Home.module.css";
@@ -14,6 +15,7 @@ const Home = () => {
             <NavBar />
             <Banner />
             <Card />
+            <OptionKarjo />
         </div>
     );
 };
